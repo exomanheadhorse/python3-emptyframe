@@ -1,0 +1,11 @@
+db:
+  cdn_mat:
+    host: 127.0.0.1
+    port: 3306
+    user: root
+    password: xxxx
+    database: xxxx
+
+log:
+  info: ../log/info.log
+  error: ../log/error.log
