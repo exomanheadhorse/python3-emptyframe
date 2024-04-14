@@ -1,4 +1,4 @@
-class Task(object):
+class TaskMgr(object):
     def __init__(self, **args) -> None:
         self.task_id: int = args.get('task_id', 0)
         self.task_name: str = args.get('task_name', '')
@@ -14,4 +14,14 @@ class Task(object):
     def update_status_in_db(self, status: int) -> None:
         pass
 
-    
+    def create_task(self, task_id, ) -> None:
+        self.task_id = task_id
+        pass
+
+
+class Task:
+    def __init__(self):
+        pass
+
+    def start(self) -> None:
+        pass
